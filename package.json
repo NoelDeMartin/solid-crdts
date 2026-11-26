@@ -1,0 +1,19 @@
+{
+    "name": "@noeldemartin/solid-crdts",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "serve . --listen ${PORT:-3000}",
+        "build": "mkdir -p dist && respec --localhost --port 3100 --haltonerror --haltonwarn --timeout 60 index.html dist/index.html",
+        "deploy": "noeldemartin-deploy-app"
+    },
+    "devDependencies": {
+        "@noeldemartin/scripts": "next",
+        "@noeldemartin/vite-plus-config": "next",
+        "respec": "^37.7.0",
+        "serve": "^14.2.4",
+        "vite": "catalog:",
+        "vite-plus": "catalog:"
+    },
+    "packageManager": "pnpm@12.23.0"
+}
