@@ -1,1 +1,1 @@
-WIP
+Solid Applications [[SOLID-PROTOCOL]] can often benefit from a [=local-first|local-first architecture=] to improve UX and data management. This specification describes a way to achieve it by attaching [=CRDT=] metadata to RDF resources, acting as an opt-in synchronization mechanism that will allow local-first Solid applications to remain interoperable with others that are using a standard Solid workflow.

@@ -15,10 +15,39 @@
                         url: 'https://noeldemartin.com',
                     },
                 ],
+                localBiblio: {
+                    'LOCAL-FIRST': {
+                        title: 'Local-first software: You own your data, in spite of the cloud',
+                        href: 'https://www.inkandswitch.com/essay/local-first/',
+                        authors: ['Martin Kleppmann', 'Adam Wiggins', 'Peter van Hardenberg', 'Mark McGranaghan'],
+                        publisher: 'Ink & Switch',
+                        date: 'April 2019',
+                    },
+                    'SOLID-PROTOCOL': {
+                        title: 'Solid Protocol',
+                        href: 'https://solidproject.org/TR/protocol',
+                        publisher: 'Solid Community Group',
+                    },
+                },
             };
         </script>
     </head>
     <body>
         <section id="abstract" data-include="sections/abstract.md" data-include-format="markdown"></section>
+        <section id="operations" data-include="sections/operations.md" data-include-format="markdown"></section>
+        <section id="metadata" data-include="sections/metadata.md" data-include-format="markdown"></section>
+        <section id="deletions" data-include="sections/deletions.md" data-include-format="markdown"></section>
+        <section
+            id="synchronization"
+            data-include="sections/synchronization.md"
+            data-include-format="markdown"
+        ></section>
+        <section
+            id="glossary"
+            class="informative"
+            data-include="sections/glossary.md"
+            data-include-format="markdown"
+        ></section>
+        <section id="conformance"></section>
     </body>
 </html>
